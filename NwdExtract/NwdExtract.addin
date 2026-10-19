@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AddInManifest xmlns="http://www.autodesk.com/Navisworks/AddInManifest/1.0">
+  <AddIn Type="Plugin"
+         Assembly="NwdExtract.dll"
+         FullClassName="NwdExtract.NwdExtractPlugin"
+         Name="NwdExtract"
+         Description="Export element rows (GUID, ElementId, Workset, SourceFile) to CSV"
+         VendorId="WII"
+         VendorDescription="WII-Tool">
+    <Commands>
+      <Command
+        Name="NwdExtractCommand"
+        DisplayName="Export elements to CSV"
+        Description="Extracts element rows from the open document to a CSV file."
+        LargeIcon=""
+        SmallIcon="" />
+    </Commands>
+  </AddIn>
+</AddInManifest>
